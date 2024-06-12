@@ -1,24 +1,23 @@
 <html>
 
 <script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+function initEmbeddedMessaging() {
+try {
+embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
-				'00D5j000003fMs0',
-				'TommiesDev__Astro',
-				'https://tommies-dev-ed.my.site.com/ESWAstro1716983827343',
-				{
-					scrt2URL: 'https://tommies-dev-ed.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
+embeddedservice_bootstrap.init(
+'00DdL000002sBiU',
+'Superdesk',
+'https://zeb8-dev-ed.develop.my.site.com/ESWSuperdesk1717081961403',
+{
+scrt2URL: 'https://zeb8-dev-ed.develop.my.salesforce-scrt.com'
+}
+);
+} catch (err) {
+console.error('Error loading Embedded Messaging: ', err);
+}
+};
 </script>
-<script type='text/javascript' src='https://tommies-dev-ed.my.site.com/ESWAstro1716983827343/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+<script type='text/javascript' src='https://zeb8-dev-ed.develop.my.site.com/ESWSuperdesk1717081961403/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </html>
